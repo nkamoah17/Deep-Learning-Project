@@ -103,7 +103,7 @@ nd erosions to remove any small
 	if key == ord("q"):
 		break
  
-# if we are not using a video file, stop the camera video stream
+#if we are not using a video file, stop the camera video stream
 if not args.get("video", False):
 	vs.stop()
  
