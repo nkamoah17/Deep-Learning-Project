@@ -230,7 +230,7 @@ with tf.Session() as sess:
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
-# cleanup everything
+#cleanup everything
 vs.stop()
 cv2.destroyAllWindows()
 sess.close()
