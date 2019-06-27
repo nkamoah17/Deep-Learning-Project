@@ -234,4 +234,4 @@ with tf.Session() as sess:
 vs.stop()
 cv2.destroyAllWindows()
 sess.close()
-print("Done")
+print("Finished")
