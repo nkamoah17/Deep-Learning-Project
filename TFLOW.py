@@ -17,7 +17,7 @@ import cv2
 
 model_dir = '/tmp/imagenet'
 DATA_URL = 'http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz'
-
+#Old model inception is no longer used. There are better trained models. 
 
 # Threaded class for performance improvement
 class VideoStream:
