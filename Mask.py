@@ -15,7 +15,6 @@ from pathlib import Path
 import tensorflow as tf
 
 
-
 class VideoStream:
     def __init__(self, src=1):
         self.stream = cv2.VideoCapture(src)
