@@ -3,7 +3,7 @@ import matplotlib.patches as patches
 from PIL import Image
 import numpy as np
 
-input_test_img = 'C:\Users\jeren\OneDrive\Pictures\Saved Pictures\ParkShot1.jpg'
+input_test_img = 'C:\Users\jeren\OneDrive\Pictures\ParkShot1.jpg'
 im = np.array(Image.open(input_test_img), dtype=np.uint8)
 
 # Create figure and axes
