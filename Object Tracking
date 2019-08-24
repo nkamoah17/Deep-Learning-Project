@@ -1,4 +1,4 @@
-
+###This is specific to a predefined color grid and does not use img recog.
 from collections import deque
 from imutils.video import VideoStream
 import numpy as np
